@@ -1,8 +1,5 @@
 #include "OneStream.h"
-#include <iostream>
-#include <cctype>
-#include <string>
-#include <algorithm>
+
 //Данный метод проверяет на ввод цифр
 //-all_of проверяет заданное свойство для каждого элемента и возвращает true,
 //когда каждый элемент в диапазоне удовлетворяет указанному свойству
@@ -38,8 +35,7 @@ void OneStream::inputValue() { //отвечает за ввод значений
 	} while (!inputValidation(m_inputString));
 	quantityCheck();
 	sortAndReplacement();
+	bufferclass.filling(m_inputString);
 	std::cout << m_inputString;
-}
-std::vector <char> OneStream::bufferFilling(std::vector<char> buffer) {
 	
-};
+}

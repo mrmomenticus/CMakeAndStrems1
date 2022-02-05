@@ -139,11 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BufferClass.cpp" />
     <ClCompile Include="OneStream.cpp" />
     <ClCompile Include="TestProg1.cpp" />
+    <ClCompile Include="TwoStream.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BufferClass.h" />
     <ClInclude Include="OneStream.h" />
+    <ClInclude Include="TwoStream.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
