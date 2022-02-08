@@ -12,12 +12,15 @@ bool OneStream::inputValidation(std::string inputString) {
 		});
 };
 bool comp(int a, int b) { return (a > b); }
-void OneStream::sortAndReplacement() {
+void OneStream::sortString() {
 	std::sort(m_inputString.begin(), m_inputString.end(), comp);
+};
+void OneStream::replacement() {
 	/*std::replace_if(m_inputString.begin(), m_inputString.end(), [](const char* c) {return *c == '31'; }, "KB");*/ //попроовать потом реализовать через это
 	for (char& c : m_inputString) {
 		if (c == 50 || c == 52 || c == 54 || c == 56 || c == 58) {
 			m_inputString.replace(m_inputString.find(c), 1, "KB");
+			replacement();
 		}
 	};
 }
@@ -28,14 +31,14 @@ void OneStream::quantityCheck() {//проверка на длинну строки, если слишком длинн
 		inputValue();
 	}
 }
+
 void OneStream::inputValue() { //отвечает за ввод значений
 	do {
 		std::cout << "¬ведите цифры: ";
 		std::getline(std::cin, m_inputString);
 	} while (!inputValidation(m_inputString));
 	quantityCheck();
-	sortAndReplacement();
-	bufferclass.filling(m_inputString);
-	std::cout << m_inputString;
-	
+	sortString();
+	replacement();
 }
+
