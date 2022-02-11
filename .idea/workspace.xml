@@ -14,17 +14,28 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecc23bb5-9b37-45ed-b76d-7ceb0068821e" name="Changes" comment="">
+    <list default="true" id="ecc23bb5-9b37-45ed-b76d-7ceb0068821e" name="Changes" comment="#4 Добавлен CMake файл">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneStream.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OneStream.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProg1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TestProg1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProg1.h" beforeDir="false" afterPath="$PROJECT_DIR$/TestProg1.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1a305b9b8e4cb6a745dd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-02-11T10-17-27-0796.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-CmakeAndStrems-Debug-159351edaa9279c231ed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoStream.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TwoStream.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/TwoStream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CmakeAndStrems.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CmakeAndStrems.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CmakeAndStrems.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CmakeAndStrems.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-52b2afbc8fa72d3ec79f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-5fd4cda5709132fdffa0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-8028d7fd5868c6b34366.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-02-11T12-37-05-0081.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-CmakeAndStrems-Debug-fa53c13d90980f5874e1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,12 +77,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="CmakeAndStrems" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CmakeAndStrems" TARGET_NAME="CmakeAndStrems" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CmakeAndStrems" RUN_TARGET_NAME="CmakeAndStrems">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CmakeAndStrems" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CmakeAndStrems" TARGET_NAME="CmakeAndStrems" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CmakeAndStrems" RUN_TARGET_NAME="CmakeAndStrems">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -87,7 +98,8 @@
       <updated>1644571590797</updated>
       <workItem from="1644571592505" duration="1363000" />
       <workItem from="1644574614841" duration="58000" />
-      <workItem from="1644574685757" duration="4102000" />
+      <workItem from="1644574685757" duration="6303000" />
+      <workItem from="1644591401607" duration="3524000" />
     </task>
     <task id="LOCAL-00001" summary="#4 Добавлен CMake файл">
       <created>1644574537474</created>
@@ -103,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644574741994</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="#4 Добавлен CMake файл">
+      <created>1644582997237</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644582997237</updated>
+    </task>
+    <task id="LOCAL-00004" summary="#5 Собран билд">
+      <created>1644583089665</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644583089665</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +165,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="#4 Добавлен CMake файл" />
-    <option name="LAST_COMMIT_MESSAGE" value="#4 Добавлен CMake файл" />
+    <MESSAGE value="#5 Собран билд" />
+    <option name="LAST_COMMIT_MESSAGE" value="#5 Собран билд" />
   </component>
 </project>

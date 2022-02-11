@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.o CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.o CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.o  -o CmakeAndStrems 
+/usr/bin/c++    -rdynamic CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.o CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.o CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.o  -o CmakeAndStrems  -pthread 
