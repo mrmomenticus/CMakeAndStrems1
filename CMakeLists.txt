@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.0)
+project(CmakeAndStrems)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+
+
+add_executable(CmakeAndStrems
+        OneStream.cpp
+        OneStream.h
+        TestProg1.cpp
+        TestProg1.h
+        TwoStream.cpp
+        TwoStream.h)

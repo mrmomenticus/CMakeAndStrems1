@@ -9,7 +9,8 @@ void TestProg1::fillingOneStream(std::vector <char>& buffer, OneStream &onestrea
 void TestProg1::fillngTwoStream(std::vector <char> &buffer, TwoStream& twostream) {
     std::this_thread::sleep_for(std::chrono::milliseconds(1000));
     std::unique_lock<std::mutex> locker(m1);
-    cv.wait(locker, [&]() {return k == 1; });
+    //cv.wait(locker, [&]() {return k == 1; });
+    std::this_thread::sleep_for(std::chrono::milliseconds(10000));
     std::string i(buffer.begin(), buffer.end());
     twostream.setTwoString(i);
     buffer.clear();

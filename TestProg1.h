@@ -7,7 +7,7 @@
 #include "TwoStream.h"
 class TestProg1 {
 	std::mutex m1;
-	std::condition_variable cv;
+	//std::condition_variable cv;
 	int k = 0;
 public:
 	std::string inputString;
