@@ -18,8 +18,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OneStream.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OneStream.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProg1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TestProg1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoStream.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TwoStream.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/OneStream.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TwoStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/TwoStream.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CmakeAndStrems.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CmakeAndStrems.dir/flags.make" afterDir="false" />
@@ -35,7 +34,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +47,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -75,14 +74,10 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration name="CmakeAndStrems" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CmakeAndStrems" TARGET_NAME="CmakeAndStrems" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CmakeAndStrems" RUN_TARGET_NAME="CmakeAndStrems">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>

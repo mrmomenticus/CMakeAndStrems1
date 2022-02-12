@@ -4,6 +4,7 @@
 #include <iostream>
 #include <cctype>
 #include <algorithm>
+#include <string_view>
 class OneStream
 {
 

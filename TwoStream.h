@@ -7,5 +7,6 @@ class TwoStream
 public:
 	void setTwoString(std::string twostring) { m_twostring = twostring; }
     void threadExecution();
+
 };
 
