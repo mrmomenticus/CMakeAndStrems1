@@ -28,22 +28,18 @@ void TestProg1::broadcast(std::string twostring) {
 };
 void TestProg1::fillingOneStream(std::vector <char>& buffer, OneStream &onestream) {
         std::unique_lock<std::mutex> locker(m1);
-        cv.wait(locker, [&]() { return l == 0; });
         onestream.inputValue();
         std::string i = onestream.getOneString();
         std::copy(i.begin(), i.end(), std::back_inserter(buffer));
-        l = 1;
 };
 void TestProg1::fillngTwoStream(std::vector <char> &buffer, TwoStream& twostream) {
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
         std::unique_lock<std::mutex> locker(m1);
-        cv.wait(locker, [&]() { return l == 1; });
         std::string i(buffer.begin(), buffer.end());
         twostream.setTwoString(i);
         buffer.clear();
         twostream.threadExecution();
         broadcast(twostream.getTwoString());
-        l = 0;
 }
 
 
