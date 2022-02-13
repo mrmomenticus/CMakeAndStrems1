@@ -9,10 +9,13 @@
 #include <arpa/inet.h>
 #include <cstdlib>
 #include <bits/socket.h>
+#include <condition_variable>
 #include "OneStream.h"
 #include "TwoStream.h"
 class TestProg1 {
 	std::mutex m1;
+    std::condition_variable cv;
+    int l = 0;
 public:
 	std::string inputString;
 	void fillingOneStream(std::vector <char>& buffer, OneStream& onestream);
