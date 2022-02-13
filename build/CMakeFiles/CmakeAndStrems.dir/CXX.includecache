@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/moment/CLionProjects/CmakeAndStrems/OneStream.cpp
-OneStream.h
-/home/moment/CLionProjects/CmakeAndStrems/OneStream.h
-
-/home/moment/CLionProjects/CmakeAndStrems/OneStream.h
+/home/tarrakan/CmakeAndStrems/OneStream.h
 string
 -
 vector
@@ -21,12 +17,14 @@ cctype
 -
 algorithm
 -
+string_view
+-
 
-/home/moment/CLionProjects/CmakeAndStrems/TestProg1.cpp
+/home/tarrakan/CmakeAndStrems/TestProg1.cpp
 TestProg1.h
-/home/moment/CLionProjects/CmakeAndStrems/TestProg1.h
+/home/tarrakan/CmakeAndStrems/TestProg1.h
 
-/home/moment/CLionProjects/CmakeAndStrems/TestProg1.h
+/home/tarrakan/CmakeAndStrems/TestProg1.h
 iostream
 -
 thread
@@ -37,18 +35,28 @@ sstream
 -
 string
 -
+sys/socket.h
+-
+netinet/in.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+cstdlib
+-
+bits/socket.h
+-
 OneStream.h
-/home/moment/CLionProjects/CmakeAndStrems/OneStream.h
+/home/tarrakan/CmakeAndStrems/OneStream.h
 TwoStream.h
-/home/moment/CLionProjects/CmakeAndStrems/TwoStream.h
+/home/tarrakan/CmakeAndStrems/TwoStream.h
 
-/home/moment/CLionProjects/CmakeAndStrems/TwoStream.cpp
-TwoStream.h
-/home/moment/CLionProjects/CmakeAndStrems/TwoStream.h
-
-/home/moment/CLionProjects/CmakeAndStrems/TwoStream.h
+/home/tarrakan/CmakeAndStrems/TwoStream.h
 sstream
 -
 iostream
+-
+regex
 -
 

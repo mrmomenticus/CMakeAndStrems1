@@ -6,7 +6,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <unistd.h>
-#include <cstdio>
+#include <arpa/inet.h>
 #include <cstdlib>
 #include <bits/socket.h>
 #include "OneStream.h"

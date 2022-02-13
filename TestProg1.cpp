@@ -1,33 +1,28 @@
 ﻿
 #include "TestProg1.h"
 void TestProg1::broadcast(std::string twostring) {
-    char message[64];
-    std::for_each(twostring.begin(), twostring.end(), [twostring, &message](char c){
-        for(int i = 0; i < twostring.size(); i++){
-            message[i] = c;
-        };
-    });
-    int sock;
-    struct sockaddr_in addr;
+    int sock= socket(AF_INET, SOCK_STREAM, 0);
 
-    sock = socket(AF_INET, SOCK_STREAM, 0);
     if(sock < 0)
     {
-        perror("socket");
+        std::cout << "Не получилось создать сокет\n";
         exit(1);
     }
-
+    
+    struct sockaddr_in addr;
     addr.sin_family = AF_INET;
-    addr.sin_port = htons(3425); // или любой другой порт...
-    addr.sin_addr.s_addr = htonl(INADDR_LOOPBACK);
+    addr.sin_port = htons(3425);
+    addr.sin_addr.s_addr = inet_addr( "127.0.0.1" );
     if(connect(sock, (struct sockaddr *)&addr, sizeof(addr)) < 0)
     {
-        perror("connect");
+        std::cout << "Не получилось связать\n";
         exit(2);
     }
 
-    send(sock, message, sizeof(message), 0);
-    std::cout << "Данные переданны";
+    int send_result = send(sock, twostring.c_str(), BUFFER_SIZE, 0);
+    if(send_result <= 0)
+        std::cout << "не получилось передать данные\n";
+    std::cout << "Данные переданны\n";
     close(sock);
 
 };

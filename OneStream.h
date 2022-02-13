@@ -5,6 +5,9 @@
 #include <cctype>
 #include <algorithm>
 #include <string_view>
+
+#define BUFFER_SIZE 64
+
 class OneStream
 {
 

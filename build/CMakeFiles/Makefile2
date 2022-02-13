@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moment/CLionProjects/CmakeAndStrems
+CMAKE_SOURCE_DIR = /home/tarrakan/CmakeAndStrems
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moment/CLionProjects/CmakeAndStrems/build
+CMAKE_BINARY_DIR = /home/tarrakan/CmakeAndStrems/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/CmakeAndStrems.dir/clean
 CMakeFiles/CmakeAndStrems.dir/all:
 	$(MAKE) -f CMakeFiles/CmakeAndStrems.dir/build.make CMakeFiles/CmakeAndStrems.dir/depend
 	$(MAKE) -f CMakeFiles/CmakeAndStrems.dir/build.make CMakeFiles/CmakeAndStrems.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/moment/CLionProjects/CmakeAndStrems/build/CMakeFiles --progress-num=1,2,3,4 "Built target CmakeAndStrems"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tarrakan/CmakeAndStrems/build/CMakeFiles --progress-num=1,2,3,4 "Built target CmakeAndStrems"
 .PHONY : CMakeFiles/CmakeAndStrems.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CmakeAndStrems.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moment/CLionProjects/CmakeAndStrems/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tarrakan/CmakeAndStrems/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CmakeAndStrems.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moment/CLionProjects/CmakeAndStrems/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tarrakan/CmakeAndStrems/build/CMakeFiles 0
 .PHONY : CMakeFiles/CmakeAndStrems.dir/rule
 
 # Convenience name for target.

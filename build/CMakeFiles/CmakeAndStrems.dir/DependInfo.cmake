@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/moment/CLionProjects/CmakeAndStrems/OneStream.cpp" "/home/moment/CLionProjects/CmakeAndStrems/build/CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.o"
-  "/home/moment/CLionProjects/CmakeAndStrems/TestProg1.cpp" "/home/moment/CLionProjects/CmakeAndStrems/build/CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.o"
-  "/home/moment/CLionProjects/CmakeAndStrems/TwoStream.cpp" "/home/moment/CLionProjects/CmakeAndStrems/build/CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.o"
+  "/home/tarrakan/CmakeAndStrems/OneStream.cpp" "/home/tarrakan/CmakeAndStrems/build/CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.o"
+  "/home/tarrakan/CmakeAndStrems/TestProg1.cpp" "/home/tarrakan/CmakeAndStrems/build/CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.o"
+  "/home/tarrakan/CmakeAndStrems/TwoStream.cpp" "/home/tarrakan/CmakeAndStrems/build/CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

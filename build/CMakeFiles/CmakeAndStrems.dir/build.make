@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moment/CLionProjects/CmakeAndStrems
+CMAKE_SOURCE_DIR = /home/tarrakan/CmakeAndStrems
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moment/CLionProjects/CmakeAndStrems/build
+CMAKE_BINARY_DIR = /home/tarrakan/CmakeAndStrems/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CmakeAndStrems.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/CmakeAndStrems.dir/flags.make
 
 CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.o: CMakeFiles/CmakeAndStrems.dir/flags.make
 CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.o: ../OneStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moment/CLionProjects/CmakeAndStrems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.o -c /home/moment/CLionProjects/CmakeAndStrems/OneStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tarrakan/CmakeAndStrems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.o -c /home/tarrakan/CmakeAndStrems/OneStream.cpp
 
 CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moment/CLionProjects/CmakeAndStrems/OneStream.cpp > CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tarrakan/CmakeAndStrems/OneStream.cpp > CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.i
 
 CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moment/CLionProjects/CmakeAndStrems/OneStream.cpp -o CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tarrakan/CmakeAndStrems/OneStream.cpp -o CMakeFiles/CmakeAndStrems.dir/OneStream.cpp.s
 
 CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.o: CMakeFiles/CmakeAndStrems.dir/flags.make
 CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.o: ../TestProg1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moment/CLionProjects/CmakeAndStrems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.o -c /home/moment/CLionProjects/CmakeAndStrems/TestProg1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tarrakan/CmakeAndStrems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.o -c /home/tarrakan/CmakeAndStrems/TestProg1.cpp
 
 CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moment/CLionProjects/CmakeAndStrems/TestProg1.cpp > CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tarrakan/CmakeAndStrems/TestProg1.cpp > CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.i
 
 CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moment/CLionProjects/CmakeAndStrems/TestProg1.cpp -o CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tarrakan/CmakeAndStrems/TestProg1.cpp -o CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.s
 
 CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.o: CMakeFiles/CmakeAndStrems.dir/flags.make
 CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.o: ../TwoStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moment/CLionProjects/CmakeAndStrems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.o -c /home/moment/CLionProjects/CmakeAndStrems/TwoStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tarrakan/CmakeAndStrems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.o -c /home/tarrakan/CmakeAndStrems/TwoStream.cpp
 
 CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moment/CLionProjects/CmakeAndStrems/TwoStream.cpp > CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tarrakan/CmakeAndStrems/TwoStream.cpp > CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.i
 
 CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moment/CLionProjects/CmakeAndStrems/TwoStream.cpp -o CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tarrakan/CmakeAndStrems/TwoStream.cpp -o CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.s
 
 # Object files for target CmakeAndStrems
 CmakeAndStrems_OBJECTS = \
@@ -110,7 +110,7 @@ CmakeAndStrems: CMakeFiles/CmakeAndStrems.dir/TestProg1.cpp.o
 CmakeAndStrems: CMakeFiles/CmakeAndStrems.dir/TwoStream.cpp.o
 CmakeAndStrems: CMakeFiles/CmakeAndStrems.dir/build.make
 CmakeAndStrems: CMakeFiles/CmakeAndStrems.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moment/CLionProjects/CmakeAndStrems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CmakeAndStrems"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tarrakan/CmakeAndStrems/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CmakeAndStrems"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CmakeAndStrems.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/CmakeAndStrems.dir/clean:
 .PHONY : CMakeFiles/CmakeAndStrems.dir/clean
 
 CMakeFiles/CmakeAndStrems.dir/depend:
-	cd /home/moment/CLionProjects/CmakeAndStrems/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moment/CLionProjects/CmakeAndStrems /home/moment/CLionProjects/CmakeAndStrems /home/moment/CLionProjects/CmakeAndStrems/build /home/moment/CLionProjects/CmakeAndStrems/build /home/moment/CLionProjects/CmakeAndStrems/build/CMakeFiles/CmakeAndStrems.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tarrakan/CmakeAndStrems/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tarrakan/CmakeAndStrems /home/tarrakan/CmakeAndStrems /home/tarrakan/CmakeAndStrems/build /home/tarrakan/CmakeAndStrems/build /home/tarrakan/CmakeAndStrems/build/CMakeFiles/CmakeAndStrems.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CmakeAndStrems.dir/depend
 
