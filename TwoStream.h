@@ -4,9 +4,10 @@
 class TwoStream
 {
 	std::string m_twostring;
+    std::string sum;
 public:
 	void setTwoString(std::string twostring) { m_twostring = twostring; }
     void threadExecution();
-    std::string getTwoString() { return m_twostring; }
+    std::string getTwoString() { return sum; }
 };
 

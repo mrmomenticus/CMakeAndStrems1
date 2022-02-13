@@ -10,6 +10,7 @@ void TwoStream::threadExecution(){
             s += (c - '0');
         }
     } );
-    std::cout << "Сумма чисел: " << s<<std::endl;
+    sum = std::to_string(s);
+    std::cout << "Сумма чисел: " << sum<<std::endl;
 
 }

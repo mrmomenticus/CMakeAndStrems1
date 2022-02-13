@@ -14,8 +14,6 @@
 #include "TwoStream.h"
 class TestProg1 {
 	std::mutex m1;
-    std::condition_variable cv;
-    int l = 0;
 public:
 	std::string inputString;
 	void fillingOneStream(std::vector <char>& buffer, OneStream& onestream);
