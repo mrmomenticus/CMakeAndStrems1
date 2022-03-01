@@ -11,7 +11,7 @@ void OneStream::sortString() {
 	std::sort(m_inputString.begin(), m_inputString.end(), comp);
 };
 void OneStream::replacement() {
-	std::replace_if(m_inputString.begin(), m_inputString.end(), [](const char* c) {return *c == '31'; }, "KB");
+	//std::replace_if(m_inputString.begin(), m_inputString.end(), [](const char* c) {return *c == '31'; }, "KB");
     std::string r;
     r.reserve(m_inputString.size());
     for(char c : m_inputString) {
